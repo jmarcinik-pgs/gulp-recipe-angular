@@ -3,7 +3,7 @@
 module.exports = function ($, config) {
     var _ = $.lodash;
 
-    return _.merge({
+    config = _.merge({
         angular: {
             modulesFilter: '*.js'
         },
@@ -12,4 +12,6 @@ module.exports = function ($, config) {
             angularAnnotate: 55
         }
     }, config);
+    config.sources = undefined;
+    return config;
 };
