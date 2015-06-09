@@ -1,6 +1,6 @@
 {
   "name": "gulp-recipe-angular",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Recipe for angular specific processing",
   "main": "main.js",
   "repository": {
