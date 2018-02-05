@@ -1,6 +1,6 @@
 {
   "name": "gulp-recipe-angular",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Recipe for angular specific processing",
   "main": "main.js",
   "repository": {
@@ -16,11 +16,11 @@
   "author": "PGS Front",
   "license": "ISC",
   "dependencies": {
-    "graceful-fs": "^3.0.6",
+    "graceful-fs": "^4.1.11",
     "gulp-angular-filesort": "^1.1.1",
-    "gulp-if": "^1.2.5",
-    "gulp-ng-annotate": "^1.0.0",
-    "gulp-sourcemaps": "^1.5.0",
-    "strip-bom": "^1.0.0"
+    "gulp-if": "^2.0.2",
+    "gulp-ng-annotate": "^2.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "strip-bom": "^3.0.0"
   }
 }
